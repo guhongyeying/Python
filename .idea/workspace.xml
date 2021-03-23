@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4dfbfec4-00a1-4522-84d2-b32cf37cee95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/python-study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interview/network/http.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interview/network/linux.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interview/network/osi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interview/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/factory/singleton2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fluent-python/third-chapter.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/.idea/design-patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/.idea/design-patterns.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/behavior/Observer.py" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/behavior/Observer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/behavior/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/behavior/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/behavior/state.py" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/behavior/state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/factory/abc_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/factory/abc_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/factory/builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/factory/builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/factory/prototype.py" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/factory/prototype.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/factory/singleton1.py" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/factory/singleton1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/struct/facade_pattern.py" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/struct/facade_pattern.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/struct/proxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/struct/proxy.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pWDfOJ9efdK8k9PL1GSmJwBDM9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\work\git\python\design-patterns\behavior" />
+      <recent name="E:\work\git\python\design-patterns" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\work\git\python\design-patterns\factory" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4dfbfec4-00a1-4522-84d2-b32cf37cee95" name="Default Changelist" comment="" />
+      <created>1615290054117</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615290054117</updated>
+      <workItem from="1615290057395" duration="11941000" />
+      <workItem from="1615431135439" duration="9058000" />
+      <workItem from="1615774927333" duration="1977000" />
+      <workItem from="1615777827145" duration="6412000" />
+      <workItem from="1616047606098" duration="1657000" />
+      <workItem from="1616462638681" duration="18175000" />
+    </task>
+    <task id="LOCAL-00001" summary="设计模式">
+      <created>1615512403979</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615512403979</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="设计模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计模式" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2618" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616462691479">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2618" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616462691479" />
+    <state x="2480" y="112" key="CommitChangelistDialog2" timestamp="1615512401497">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2480" y="112" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615512401497" />
+    <state x="2344" y="204" key="SettingsEditor" timestamp="1616466943764">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2344" y="204" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616466943764" />
+    <state x="2560" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1615433216122">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2560" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615433216122" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1615355952467">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615355952467" />
+  </component>
+</project>

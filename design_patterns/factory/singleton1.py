@@ -109,10 +109,10 @@ class Logger(metaclass=ClassKis):
     pass
 
 
-logger1 = Logger()
-logger2 = Logger()
-print(id(logger1),id(logger2))
-if id(logger1) == id(logger2):
-    print("=-=-")
-    print(id(logger1),id(logger2))
-
+# logger1 = Logger()
+# logger2 = Logger()
+# print(id(logger1),id(logger2))
+# if id(logger1) == id(logger2):
+#     print("=-=-")
+#     print(id(logger1),id(logger2))
+#

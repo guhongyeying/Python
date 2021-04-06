@@ -1,3 +1,9 @@
+
+#todo
+web.doc 
+django flask 深入理解
+celery 调优
+熟悉hadoop hdfs/hive/spark/sqoop
 # 计算机网络
 
 1. [OSI 七层模型](./network/osi.md)
@@ -81,3 +87,12 @@ linux
 tcpdump 
 使用lsof查看fd数量，确实挺多的。
 再使用gcore生成服务的内存镜像，然后gdb进去输出相关变量。
+
+
+
+#中间件
+redis kafka rabbimq
+
+
+# python 
+tornado fastapi asgi django flask

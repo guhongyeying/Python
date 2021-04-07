@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dfbfec4-00a1-4522-84d2-b32cf37cee95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Interview/algorithm/kmp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interview/company/oppo/web.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interview/company/oppo/web.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interview/company/shengxinfu/post.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interview/company/shengxinfu/~$post.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interview/company/web.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interview/sql/mysql.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interview/sql/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsgi/flask/flask_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsgi/flask/my_wsgi_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsgi/flask/myapp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interview/sql/redis/Redis深度历险：核心原理和应用实践.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interview/sql/redis/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Interview/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wsgi/flask" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Interview/sql/redis" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
@@ -69,6 +58,7 @@
       <recent name="E:\work\git\python\design-patterns" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\work\git\python-study\Interview\sql\redis" />
       <recent name="E:\work\git\python-study\image" />
       <recent name="E:\work\git\python\design-patterns\factory" />
     </key>
@@ -104,7 +94,7 @@
       <workItem from="1616737662623" duration="7879000" />
       <workItem from="1616980781611" duration="21087000" />
       <workItem from="1617672277619" duration="84000" />
-      <workItem from="1617688144795" duration="6712000" />
+      <workItem from="1617688144795" duration="15890000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式">
       <created>1615512403979</created>
@@ -127,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616666068643</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="学习">
+      <created>1617703414778</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617703414778</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,17 +132,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="设计模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计模式" />
+    <MESSAGE value="学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="学习" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2618" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616462691479">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2618" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616462691479" />
-    <state x="2480" y="112" key="CommitChangelistDialog2" timestamp="1616666064718">
+    <state x="2480" y="112" key="CommitChangelistDialog2" timestamp="1617703412387">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2480" y="112" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616666064718" />
+    <state x="2480" y="112" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617703412387" />
     <state x="2660" y="261" key="FileChooserDialogImpl" timestamp="1617689508251">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -162,10 +160,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2560" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617672344224" />
-    <state x="2920" y="287" width="647" height="534" key="find.popup" timestamp="1617009913961">
+    <state x="2920" y="287" width="647" height="534" key="find.popup" timestamp="1617779428549">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2920" y="287" width="647" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617009913961" />
+    <state x="2920" y="287" width="647" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617779428549" />
     <state x="2580" y="311" key="git4idea.merge.GitPullDialog" timestamp="1616738217057">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

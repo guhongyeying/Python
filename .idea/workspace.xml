@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dfbfec4-00a1-4522-84d2-b32cf37cee95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Interview/sql/redis/Redis深度历险：核心原理和应用实践.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interview/sql/redis/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interview/sql/高性能Mysql.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python-study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-study.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview/sql/mysql.md" beforeDir="false" afterPath="$PROJECT_DIR$/Interview/sql/mysql.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log" beforeDir="false" afterPath="$PROJECT_DIR$/log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,17 +39,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="feaf1fa4-81ae-4e2c-97a4-89bded8f0cd8" />
   <component name="ProjectId" id="1pWDfOJ9efdK8k9PL1GSmJwBDM9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Interview/sql/redis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
@@ -63,18 +66,7 @@
       <recent name="E:\work\git\python\design-patterns\factory" />
     </key>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
   </component>
@@ -95,6 +87,10 @@
       <workItem from="1616980781611" duration="21087000" />
       <workItem from="1617672277619" duration="84000" />
       <workItem from="1617688144795" duration="15890000" />
+      <workItem from="1617807097474" duration="1258000" />
+      <workItem from="1618190058926" duration="1297000" />
+      <workItem from="1618226910257" duration="2733000" />
+      <workItem from="1618409687448" duration="2481000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式">
       <created>1615512403979</created>
@@ -128,7 +124,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="设计模式" />

@@ -149,7 +149,6 @@ def make_server(server_address, application):
 
 
 # -*- coding: utf-8
-import redis
 import threading
 locks = threading.local()
 locks.redis = {}
@@ -184,8 +183,38 @@ def unlock(client, user_id):
             del locks.redis[key]
         return True
     return False
-client = redis.StrictRedis()
-print ("lock", lock(client, "codehole"))
-print ("lock", lock(client, "codehole"))
-print ("unlock", unlock(client, "codehole"))
-print ("unlock", unlock(client, "codehole"))
+# client = redis.StrictRedis()
+# print ("lock", lock(client, "codehole"))
+# print ("lock", lock(client, "codehole"))
+# print ("unlock", unlock(client, "codehole"))
+# print ("unlock", unlock(client, "codehole"))
+
+# an example of python decorator
+def deco1(func):
+    print(1)
+    def wrapper1():
+        print(2)
+        func()
+        print(3)
+    print(4)
+    return wrapper1
+
+def deco2(func):
+    print(5)
+    def wrapper2():
+        print(6)
+        func()
+        print(7)
+    print(8)
+    return wrapper2
+
+# @deco1
+numbers = [1, 3, 6]
+newNumbers = tuple(map(lambda x: x , numbers))
+print(3*1**3)
+
+
+
+
+
+

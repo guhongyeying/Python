@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dfbfec4-00a1-4522-84d2-b32cf37cee95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Interview/sql/高性能Mysql.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interview/company/明源云/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/python-study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-study.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interview/sql/mysql.md" beforeDir="false" afterPath="$PROJECT_DIR$/Interview/sql/mysql.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log" beforeDir="false" afterPath="$PROJECT_DIR$/log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview/sql/redis/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Interview/sql/redis/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +52,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -66,7 +67,19 @@
       <recent name="E:\work\git\python\design-patterns\factory" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
   </component>
@@ -91,6 +104,8 @@
       <workItem from="1618190058926" duration="1297000" />
       <workItem from="1618226910257" duration="2733000" />
       <workItem from="1618409687448" duration="2481000" />
+      <workItem from="1618886695007" duration="236000" />
+      <workItem from="1618887081962" duration="15675000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式">
       <created>1615512403979</created>
@@ -124,7 +139,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="设计模式" />
@@ -132,6 +147,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="学习" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618903896400">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618903896400" />
     <state x="2618" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616462691479">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -144,10 +163,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2660" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617689508251" />
-    <state x="2344" y="204" key="SettingsEditor" timestamp="1616666910298">
+    <state x="2344" y="204" key="SettingsEditor" timestamp="1618903905605">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2344" y="204" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616666910298" />
+    <state x="2344" y="204" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618903905605" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617703393400">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -160,10 +179,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2920" y="287" width="647" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617779428549" />
-    <state x="2580" y="311" key="git4idea.merge.GitPullDialog" timestamp="1616738217057">
+    <state x="2580" y="311" key="git4idea.merge.GitPullDialog" timestamp="1618886377591">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2580" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616738217056" />
+    <state x="2580" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618886377591" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1615355952467">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

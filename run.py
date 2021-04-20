@@ -207,14 +207,89 @@ def deco2(func):
         print(7)
     print(8)
     return wrapper2
-
+#
+# @deco2
 # @deco1
-numbers = [1, 3, 6]
-newNumbers = tuple(map(lambda x: x , numbers))
-print(3*1**3)
+# def func():
+#     print('This is func')
+
+def decorator_02(func):
+    print(3)
+    def inner_02(*args):
+        print(4)
+        func(*args)
+        print(7)
+    return inner_02
+
+def decorator_01(num):
+    def outer(func):
+        print(2)
+        def inner_01(*args):
+            func(*args)
+            for i in range(num):
+                print(6)
+        return inner_01
+    print(1)
+    return outer
+
+@decorator_02
+@decorator_01(1)
+def my_func(*args):
+    print(5)
+
+# my_func('hello,world', 'hello,python')
+# print(my_func.__name__)
+
+#https://www.jianshu.com/p/c7cc96b38d8e 多重装饰器
 
 
 
+class Single:
+
+    def __new__(cls, *args, **kwargs):
+        if not hasattr(cls,"_instance"):
+            cls._instance = super().__new__(cls)
+
+        return  cls._instance
 
 
+# s1= Single()
+# s2 = Single()
+#
+# print(id(s1),id(s2))
 
+
+f = map(lambda li: li*2, [1,2,3,4,5])
+# print(list(f))
+import random
+print(random.random())
+
+ct={"name":"zs","age":18,"city":"深圳","tel":"1362626627"}
+
+import collections
+s = "kjalfj;ldsjafl;hdsllfdhg;lahfbl;hl;ahlf;h"
+
+rst = collections.Counter(s)
+print(list(filter(lambda x:x%2,[1, 2, 3, 4, 5, 6, 7, 8, 9, 10])))
+a=(1,)
+b=(1)
+c=("1")
+
+rst = [1,5,7,9]
+rst2 = [2,2,6,8]
+
+
+x="abc"
+y="def"
+z=["d","e","f"]
+
+#daebfc
+#
+
+print(x.join(y))
+print([1,2,3]+[4,5,6])
+
+[
+    [
+        [-2, 0, 3, -5, 2, -1] ], [0, 2], [2, 5], [0, 5]
+]

@@ -286,10 +286,65 @@ z=["d","e","f"]
 #daebfc
 #
 
-print(x.join(y))
-print([1,2,3]+[4,5,6])
+class A(object):
+    def test(self):
+        print('from A')
 
-[
-    [
-        [-2, 0, 3, -5, 2, -1] ], [0, 2], [2, 5], [0, 5]
-]
+
+class B(A):
+    def test(self):
+        print('from B')
+
+
+class C(A):
+    def test(self):
+        print('from C')
+
+
+class D(B):
+    def test(self):
+        print('from D')
+
+
+class E(C):
+    def test(self):
+        print('from E')
+
+
+class F(D, E):
+    # def test(self):
+    #     print('from F')
+    pass
+
+
+f1 = F()
+f1.test()
+print(F.__mro__)  #
+
+from werkzeug.local import Local, LocalStack
+import threading, time
+
+my_stack = LocalStack()
+my_stack.push(1)
+print('in main thread after push, value is:' + str(my_stack.top))
+
+
+def worker():
+    print('in new thread before push , value is:' + str(my_stack.top))  # 因为线程隔离，所以为None
+    my_stack.push(2)
+    print('in new thread after push , value is:' + str(my_stack.top))
+
+
+new_t = threading.Thread(target=worker, name='localstack_thread')
+new_t.start()
+
+time.sleep(1)
+
+print('finally, in main thread , value is : {}'.format(my_stack.top))
+
+
+from flask import Flask
+app = Flask()
+
+
+my_set = (0,"apple",3.5).t

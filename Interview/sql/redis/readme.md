@@ -1,7 +1,8 @@
-redis 五种数据结构详解（string，list，set，zset，hash HyperLogLog、Geo、Pub/Sub）
-如果你说还玩过Redis Module，像BloomFilter，RedisSearch，Redis-ML，面试官得眼睛就开始发亮了
+##### redis 五种数据结构详解
+    （string，list，set，zset，hash HyperLogLog、Geo、Pub/Sub）
+##### 如果你说还玩过Redis Module，像BloomFilter，RedisSearch，Redis-ML，面试官得眼睛就开始发亮了
 
-#https://baijiahao.baidu.com/s?id=1594341157941741587&wfr=spider&for=pc
+#####https://baijiahao.baidu.com/s?id=1594341157941741587&wfr=spider&for=pc
 
 
 ###滑动窗口设置用户访问次数
@@ -29,3 +30,21 @@ redis 五种数据结构详解（string，list，set，zset，hash HyperLogLog�
     for i in range(20):
         time.sleep(6)
         print (is_action_allowed("laoqian", "reply5", 6, 5))
+        
+ ##### redis击穿，穿透，雪崩以及解决方案
+ 
+1. 击穿：单个key并发造车db压力
+        
+        1) 通过synchronized+双重检查机制：某个key只让一个线程查询，阻塞其它线程 缺点: 会阻塞其它线程
+        2) 设置value永不过期
+
+2. 穿透：为恶意频繁查询才会对系统造成很大的问题: key缓存并且数据库不存在
+        1） 布隆过滤器（bloom filter）
+3. 雪崩：突然大量失效
+        做二级缓存
+        不同过期时间
+        
+        
+ #### 锁 互斥锁，mutex key setex
+ 
+ #### 单机 主从，集群

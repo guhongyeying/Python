@@ -343,8 +343,28 @@ time.sleep(1)
 print('finally, in main thread , value is : {}'.format(my_stack.top))
 
 
-from flask import Flask
-app = Flask()
+
+def quit_sort(listData):
+    _len = len(listData)
+    if _len < 2:
+        return listData
+
+    _tempData = listData[0]
+    _leftList = []
+    _rightList = []
+
+    for i in range(1,_len):
+        if listData[i] <_tempData:
+            _leftList.append(listData[i]);
+        else:
+            _rightList.append(listData[i]);
+    return quit_sort(_leftList) + [_tempData] + quit_sort(_rightList)
 
 
-my_set = (0,"apple",3.5).t
+
+
+
+
+rst = Solution()
+tt = rst.lenStr("abcabcbb")
+print(tt)

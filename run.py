@@ -338,33 +338,52 @@ def worker():
 new_t = threading.Thread(target=worker, name='localstack_thread')
 new_t.start()
 
-time.sleep(1)
+# time.sleep(1)
 
 print('finally, in main thread , value is : {}'.format(my_stack.top))
 
 
-
-def quit_sort(listData):
-    _len = len(listData)
-    if _len < 2:
-        return listData
-
-    _tempData = listData[0]
-    _leftList = []
-    _rightList = []
-
-    for i in range(1,_len):
-        if listData[i] <_tempData:
-            _leftList.append(listData[i]);
-        else:
-            _rightList.append(listData[i]);
-    return quit_sort(_leftList) + [_tempData] + quit_sort(_rightList)
-
-
-
-
+#
+# def quit_sort(listData):
+#     _len = len(listData)
+#     if _len < 2:
+#         return listData
+#
+#     _tempData = listData[0]
+#     _leftList = []
+#     _rightList = []
+#
+#     for i in range(1,_len):
+#         if listData[i] <_tempData:
+#             _leftList.append(listData[i]);
+#         else:
+#             _rightList.append(listData[i]);
+#     return quit_sort(_leftList) + [_tempData] + quit_sort(_rightList)
+#
+#
 
 
-rst = Solution()
-tt = rst.lenStr("abcabcbb")
-print(tt)
+
+
+class Solution(object):
+
+    def lenStr(self ,s:str) -> int:
+        pos = {}
+        res = temp = 0
+
+        dp = [0]*len(s)
+        for j in range(len(s)):
+            i = pos.get(s[j],-1)
+            pos[s[j]] = j
+            print(temp)
+            temp = temp + 1 if temp < j-i else j-i
+            print(s[j], i, j,temp)
+            # res = max(temp,res)
+            dp[j] = temp
+        print(dp)
+        return res
+
+#[1, 2, 2, 2, 3, 3]
+#[1, 2, 2, 4, 5, 5]  pwwkew
+
+#https://q.shanyue.tech/server/

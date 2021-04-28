@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dfbfec4-00a1-4522-84d2-b32cf37cee95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Interview/company/明源云/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interview/company/百度/reamd.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/sql/mysql.md" beforeDir="false" afterPath="$PROJECT_DIR$/Interview/sql/mysql.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/sql/redis/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Interview/sql/redis/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview/company/达观数据/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interview/company/达观数据/demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,20 +47,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Interview/company/达观数据" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\work\git\python-study\Interview\company\达观数据" />
+      <recent name="E:\work\git\python-study\Interview\sql\redis" />
+      <recent name="E:\work\git\python-study\image" />
+      <recent name="E:\work\git\python\design-patterns\factory" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\work\git\python-study\Interview\company" />
       <recent name="E:\work\git\python-study\wsgi\flask" />
       <recent name="E:\work\git\python-study\wsgi" />
       <recent name="E:\work\git\python\design-patterns\behavior" />
       <recent name="E:\work\git\python\design-patterns" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\work\git\python-study\Interview\sql\redis" />
-      <recent name="E:\work\git\python-study\image" />
-      <recent name="E:\work\git\python\design-patterns\factory" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -105,7 +103,9 @@
       <workItem from="1618226910257" duration="2733000" />
       <workItem from="1618409687448" duration="2481000" />
       <workItem from="1618886695007" duration="236000" />
-      <workItem from="1618887081962" duration="15675000" />
+      <workItem from="1618887081962" duration="15924000" />
+      <workItem from="1619165309479" duration="1231000" />
+      <workItem from="1619312948585" duration="29994000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式">
       <created>1615512403979</created>
@@ -135,7 +135,28 @@
       <option name="project" value="LOCAL" />
       <updated>1617703414778</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="mysql">
+      <created>1618916206500</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1618916206500</updated>
+    </task>
+    <task id="LOCAL-00006" summary="4/25">
+      <created>1619344680521</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619344680521</updated>
+    </task>
+    <task id="LOCAL-00007" summary="4/26">
+      <created>1619436891189</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619436891189</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +165,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="设计模式" />
     <MESSAGE value="学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="学习" />
+    <MESSAGE value="mysql" />
+    <MESSAGE value="4/25" />
+    <MESSAGE value="4/26" />
+    <option name="LAST_COMMIT_MESSAGE" value="4/26" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618903896400">
@@ -155,10 +179,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2618" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616462691479" />
-    <state x="2480" y="112" key="CommitChangelistDialog2" timestamp="1617703412387">
+    <state x="2480" y="112" key="CommitChangelistDialog2" timestamp="1619436889810">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2480" y="112" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617703412387" />
+    <state x="2480" y="112" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1619436889810" />
     <state x="2660" y="261" key="FileChooserDialogImpl" timestamp="1617689508251">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -167,14 +191,14 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2344" y="204" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618903905605" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617703393400">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1619436898172">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617703393400" />
-    <state x="2560" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1617672344224">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1619436898172" />
+    <state x="2560" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1619313164264">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2560" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617672344224" />
+    <state x="2560" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1619313164264" />
     <state x="2920" y="287" width="647" height="534" key="find.popup" timestamp="1617779428549">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

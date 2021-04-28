@@ -74,6 +74,18 @@ class Solution(object):
 
 #有两个有序链表A和B，合并A和B成为一个新的有序列表C，并去除其中的重复元素。尽量不要开辟新的存储空间，时间复杂度O(n)。
 
+#两数之和
+def bp(nums, traget):
+    dp = [0]*traget
+
+    hash = {}
+    for i in range(len(nums)):
+
+        if (traget-nums[i])  in hash.keys():
+            return i,hash[traget-nums[i]]
+
+        hash[nums[i]]  = i
+
 
 
 
